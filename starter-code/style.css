@@ -1,0 +1,24 @@
+:root {
+    --light-mode-primary-blue: #0079FF;
+    --light-mode-soft-gray: #697C9A;
+    --light-mode-graylish-blue: #4B6A9B;
+    --light-mode-dark-gray: #2B3442;
+    --light-mode-white: #FEFEFE;
+
+    --color-light-mode: #F6F8FF;
+    --color-dark-mode: #1E2A47;
+    
+    --dark-mode-black: #141D2F;
+    --dark-mode-white: #FFFFFF;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: var(--color-dark-mode);
+}
+
+.container {
+    height: 100px;
+    width: 100px;
+}
